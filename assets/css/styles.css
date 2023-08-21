@@ -147,6 +147,11 @@ img {
   color: #fff;
 }
 
+.nav__link_special {
+  position: relative;
+  color: #96B6C5;
+}
+
 .nav__link:hover {
   position: relative;
 }
