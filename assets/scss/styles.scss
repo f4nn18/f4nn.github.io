@@ -300,15 +300,18 @@ img{
         z-index: var(--z-back);
     }
     &__html{
-        width: 95%;
-    }
-    &__css{
-        width: 85%;
-    }
-    &__js{
         width: 65%;
     }
+    &__css{
+        width: 55%;
+    }
+    &__js{
+        width: 35%;
+    }
     &__ux{
+        width: 75%;
+    }
+    &__mr{
         width: 85%;
     }
     &__img{
