@@ -282,7 +282,7 @@ img {
 }
 
 .cal__img img {
-  width: 450px;
+  width: 200px;
   border-radius: .5rem;
 
 
@@ -523,7 +523,7 @@ img {
     width: 300px;
   }
   .cal__img img {
-    width: 450px;
+    width: 300px;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
