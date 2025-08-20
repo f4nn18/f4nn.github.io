@@ -277,6 +277,14 @@ img {
   width: 200px;
   border-radius: .5rem;
 }
+.cal__img {
+  justify-self: center;
+}
+
+.cal__img img {
+  width: 450px;
+  border-radius: .5rem;
+
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -513,6 +521,9 @@ img {
   }
   .about__img img {
     width: 300px;
+  }
+  .cal__img img {
+    width: 450px;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
