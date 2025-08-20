@@ -55,7 +55,7 @@ h1, h2, p {
   margin: 0;
 }
 
-p {
+body p {
   text-align: justify;
 }
 
