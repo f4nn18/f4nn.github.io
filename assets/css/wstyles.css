@@ -55,6 +55,10 @@ h1, h2, p {
   margin: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -192,7 +196,7 @@ img {
   right: 0;
 }
 
-/*===== cprofile =====*/
+/*===== h1file =====*/
 .cprofile {
   position: relative;
   row-gap: 5rem;
