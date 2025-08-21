@@ -368,6 +368,9 @@ img {
 }
 
 /* ===== CONTACT =====*/
+.container__container {
+  row-gap: 2rem;
+}
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -459,6 +462,11 @@ img {
     column-gap: 2rem;
     padding-top: 2rem;
   }
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding-top: 2rem;
+  }
   .contact__form {
     width: 360px;
     padding-top: 2rem;
@@ -520,6 +528,10 @@ img {
     text-align: initial;
   }
   .work__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  .contact__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
