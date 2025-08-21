@@ -368,7 +368,7 @@ img {
 }
 
 /* ===== CONTACT =====*/
-.container__container {
+.contact__container {
   row-gap: 2rem;
 }
 .contact__input {
@@ -463,7 +463,7 @@ img {
     padding-top: 2rem;
   }
   .contact__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
   }
@@ -532,7 +532,7 @@ img {
     column-gap: 2rem;
   }
   .contact__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 2rem;
   }
 }
