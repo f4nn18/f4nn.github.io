@@ -320,7 +320,7 @@ img {
   left: 0;
   bottom: 0;
   background-color: var(--first-color);
-  height: .25rem;
+  height: .125rem;
   border-radius: .5rem;
   z-index: var(--z-back);
 }
