@@ -611,6 +611,57 @@
         border: 1px solid #eee;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
       }
+      /* ================= MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+  /* ===== NAVBAR ===== */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  /* ===== TIMELINE ===== */
+  .timeline::before {
+    left: 20px;
+    transform: none;
+  }
+
+  .timeline-item {
+    width: 100%;
+    left: 0 !important;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: left !important;
+  }
+
+  .timeline-item .dot {
+    left: 12px !important;
+    right: auto;
+  }
+
+  .timeline-item .content {
+    text-align: left;
+  }
+
+  /* reset bullet biar normal */
+  .timeline-item .content ul {
+    direction: ltr !important;
+    text-align: left !important;
+  }
+}
     </style>
 
     <section id="projects" class="section">
