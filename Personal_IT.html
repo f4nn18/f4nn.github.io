@@ -319,5 +319,21 @@
     <a href="index.html" class="floating-back-btn">
       ↩</i>
     </a>
+
+    <script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('nav-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+
+  // Tutup menu saat klik salah satu link
+  menu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.remove('active');
+    });
+  });
+</script>
   </body>
 </html>
